@@ -1,0 +1,13 @@
+cloud_run_sa          = "kaleb-demo-service@kaleb-demo-project1.iam.gserviceaccount.com"
+domain                = ["www.kalebdemo.com"]      # replace with your domain
+ip_cidr_range         = "10.8.0.0/28"
+kms_project_id        = "kaleb-demo-project1"
+vpc_project_id        = "kaleb-demo-project1"
+serverless_project_id = "kaleb-demo-project1"
+shared_vpc_name       = "shared-vpc"
+resource_names_suffix = "dev"
+image                 = "northamerica-northeast1-docker.pkg.dev/kaleb-demo-project1/Kalebs-repository/tetris:latest"
+apex_domain           = "kalebdemo.com"
+cloud_run_service_name = "tetris"
+region                = "northamerica-northeast1"
+alert_email           = "kaleb.trtovac@gmail.com"
