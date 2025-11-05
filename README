@@ -1,0 +1,13 @@
+Run check_api.sh first to make sure you are in correct project and have required api's enabled 
+
+after You can run the below commands
+
+cd Artifact_repo
+terraform init
+terraform apply 
+
+after creating the GAR we need to push the container to it
+
+./build-and-push.sh
+
+when the container is on the 
